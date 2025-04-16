@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #4793a1;
+}
+
+.appcontainer {
+    max-width: 100%;
+    height: 100vh;
+    min-height: fit-content;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    color: hsl(0, 0%, 20%);
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#buttonParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+#MenuBarbutton {
+    font-size: 30px;
+    padding: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+#MenuBarbutton:active {
+    transform: scale(1.1);
+}
+
+.MenuBarSection {
+    background-color: hsl(175, 37%, 49%);
+    width: 225px;
+    height: fit-content;
+    font-size: 13px;
+}
+
+.showmenuCSS {
+    display: none;
+}
+
+#Ulsss i {
+    max-width: fit-content;
+}
+
+@media only screen and (max-width: 769px) {
+    #MenuBarbutton {
+        display: block;
+    }
+    .MenuBarSection {
+        background-color:#4793a1;
+        width: 100%;
+        max-height: fit-content;
+    }
+    #Ulsss {
+        display: none;
+    }
+    .appcontainer {
+        display: block;
+    }
+    #Event-Photo {
+        min-width: 220px;
+        margin: 0 auto !important;
+    }
+    .numCircle {
+        max-width: 40px;
+    }
+    .numbZ {
+        font-size: 12px !important;
+        padding: 10px !important;
+    }
+    .textBelowNumbz {
+        font-size: 6px;
+    }
+    .showmenuCSS {
+        position: fixed;
+        display: block;
+        top: 0;
+        left: 0;
+        background-color: hsl(175, 37%, 49%);
+        width: 60%;
+        min-height: 100vh;
+        transition: left 0.5s ease-in-out;
+        overflow-y: auto;
+    }
+    
+}
+
+.MenuBarSection li {
+    margin-bottom: 4px;
+    cursor: pointer;
+    padding: 8px 0 8px 20px;
+}
+
+.MenuBarSection li:hover {
+    background-color: hsl(175, 37%, 45%);
+}
+
+.MenuBarSection li:active {
+    background-color: hsl(175, 37%, 42%);
+}
+
+.Lists {
+    color: hsl(0, 0%, 80%);
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+}
+
+#active {
+    background-color: hsl(175, 37%, 40%);
+}
+
+.imageContainer {
+    display: flex;
+}
+
+#Event-Photo {
+    width: 140px;
+    margin: 70px auto 0;
+}
+
+.mainBox {
+    width: 100%;
+}
+
+.numberTopArea {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.numCircle {
+    max-width: 80px;
+}
+
+.numbZ {
+    font-size: 24px;
+    color: hsl(0, 0%, 85%);
+    padding: 20px;
+    background-color: #85603296;
+    border-radius: 50%;
+    margin: 5px;
+    max-width: fit-content;
+    margin: 10px auto 5px;
+}
+
+.textBelowNumbz {
+    text-align: center;
+    font-weight: bold;
+    color: #85603296;
+}
+
+#numCircleActive .numbZ {
+    background-color: #855f32;
+}
+
+#numCircleActive .textBelowNumbz {
+    color: #855f32;
+}
+
+#PurchaseInfo-Text {
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+.White-Page {
+    width: 95%;
+    background-color: hsl(0, 0%, 95%);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+#Line000 {
+    height: 1px;
+    width: 100%;
+    background-color: hsl(0, 0%, 80%);
+    margin: 10px 0;
+}
+
+.ValueBoxes {
+    display: flex;
+    line-height: 1.5;
+}
+
+#BoldText {
+    font-weight: bold;
+    min-width: 20%;
+    max-width: 20%;
+    margin-right: 10px;
+}
+
+#NextBTN {
+    color: hsl(0, 0%, 80%);
+    background-color: #166468;
+    padding: 12px;
+    display: flex;
+    max-width: fit-content;
+    margin: 10px 0 10px auto;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+}
